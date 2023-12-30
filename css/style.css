@@ -136,24 +136,28 @@ nav ul li a:hover {
 /* Content Panels */
 .panel {
 	min-height: 100vh;
+	padding: 40px 0;
 	width: 100%;
 }
 
 .panel h2 {
 	font-family: 'Playfair Display', serif;
-	font-size: 96px;
+	font-size: 84px;
 	line-height: 1.25;
 }
 
 .panel h3 {
+	display: inline-block;
 	font-family: 'Playfair Display', serif;
-	font-size: 48px;
+	font-size: 38px;
 	line-height: 1.5;
+	margin-bottom: 18px;
+	position: relative;
 }
 
 .panel .subtitle {
 	display: inline-block;
-	margin: 18px 0;
+	margin: 18px 0 36px 0;
 }
 
 /* Intro Panel */
@@ -193,4 +197,39 @@ nav ul li a:hover {
 	margin: 18px auto;
 	width: 16px;
 
+}
+
+/* About Panel */
+
+#about .milestone {
+	margin-bottom: 36px;
+}
+
+#about .milestone .year::after {
+	border-bottom: 2px solid #000;
+	content: " ";
+	display: block;
+	position: absolute;
+	right: 0;
+	width: 38px;
+}
+
+/* Work Panel */
+
+#work .skills {
+	display: flex;
+	justify-content: space-between;
+}
+
+#work .skills .skillset {
+	flex: 1 0 auto;
+	margin-right: 36px;
+}
+
+#work .skills .skillset:last-child {
+	margin-right: 0;
+}
+
+#work .skills .skillset li {
+	margin-bottom: 14px;
 }
