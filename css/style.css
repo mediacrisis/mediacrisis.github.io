@@ -254,3 +254,24 @@ nav ul li a:hover {
 #work .resume .btn:hover {
 	background-color: #a6a1d4;
 }
+
+/* Contact Panel */
+
+#contact .contact-icons ul li {
+	display: inline-block;
+	margin-right: 24px;
+}
+
+#contact .contact-icons ul li:last-child {
+	margin-right: 0;
+}
+
+#contact .contact-icons ul li a {
+	color: #000;
+	transition-property: color;
+	transition-duration: .25s;
+}
+
+#contact .contact-icons ul li a:hover {
+	color: #a6a1d4;
+}
