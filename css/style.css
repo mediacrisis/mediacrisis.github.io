@@ -233,3 +233,24 @@ nav ul li a:hover {
 #work .skills .skillset li {
 	margin-bottom: 14px;
 }
+
+#work .resume {
+	margin: 48px 0;
+	text-align: center;
+}
+
+#work .resume .btn {
+	background-color: #000;
+	border-radius: 3px;
+	color: #fff;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 24px 48px;
+	text-decoration: none;
+	transition-property: background-color;
+	transition-duration: .25s;
+}
+
+#work .resume .btn:hover {
+	background-color: #a6a1d4;
+}
