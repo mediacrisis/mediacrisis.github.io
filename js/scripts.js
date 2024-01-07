@@ -16,3 +16,11 @@ if (window.history) {
 		window.history.pushState({}, null, myOldUrl);
 	});
 }
+
+const menuToggle = document.getElementById('menu-toggle');
+
+menuToggle.addEventListener('click', () => {
+	const nav = document.getElementById('nav');
+	nav.classList.contains('open') ? nav.classList.remove('open') : nav.classList.add('open');
+
+});
